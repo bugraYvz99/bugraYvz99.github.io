@@ -1,27 +1,89 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bugra IO</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-  </head>
-  <body>
-    <center><div class="card mb-3" style="max-width: 540px;">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <img src="/assets/me.jpg" class="img-fluid rounded-start" alt="...">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">Bugra YAVUZ</h5>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bugra IO</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+  <div class="container mt-4">
+    <div class="card mb-3">
+      <div class="row g-0">
+        <div  class="col-md-4 ">
+          <img src="/assets/me.jpg" class="img-fluid rounded-start" alt="Profile Image">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h2 style="font-size: x-large; font-weight: 900;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: rgb(122, 175, 253)">Bugra YAVUZ</h2>
+            <p class="card-text">
+              I am a highly motivated and enthusiastic front-end developer with a strong passion for learning and mastering new technologies. I am always looking for ways to improve my skills and stay up-to-date with the latest industry trends. My experience includes building responsive and user-friendly websites, creating dynamic web applications, and working with a variety of front-end frameworks and libraries. I am committed to writing clean and maintainable code that is optimized for performance and scalability. In addition to my technical skills, I have excellent communication and collaboration skills and enjoy working in a team environment.
+            </p>
+            <div class="mt-3">
+              <h6 class="fw-bold">Skills:</h6>
+              <ul class="list-group">
+                <li class="list-group-item list-group-item-success list-group-item-action">Vue.js</li>
+                <li class="list-group-item list-group-item-success list-group-item-action">React.js</li>
+                <li class="list-group-item  list-group-item-success list-group-item-action">JavaScript</li>
+                <li class="list-group-item list-group-item-success list-group-item-action">Node.js</li>
+                <!-- Add more skills as needed -->
+              </ul>
             </div>
+            <div class="mt-3">
+              <h6 class="fw-bold">Additional Features:</h6>
+              <ul class="list-group">
+                <li class="list-group-item list-group-item-primary list-group-item-action">Tailwind CSS</li>
+                <li class="list-group-item list-group-item-primary list-group-item-action">HTML</li>
+                <li class="list-group-item list-group-item-primary list-group-item-action">Git</li>
+                <li class="list-group-item list-group-item-primary list-group-item-action">GitHub</li>
+                <li class="list-group-item list-group-item-primary list-group-item-action">Cloud Computing</li>
+                <li class="list-group-item list-group-item-primary list-group-item-action">Data Analysis</li>
+                <!-- Add more features as needed -->
+              </ul>
+            </div>
+            <div class="mt-3">
+                <h6 class="fw-bold">Experiences:</h6>
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                       Full Time
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Software Developer</strong><br>
+                        Testinvite · Tam zamanlı<br>
+                        Tem 2023 - Halen · 9 ay<br>
+                        İstanbul, Türkiye · Hibrit<br>
+                        Vue.js, Web Development ve +1 yetenek        </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Intern
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <strong>Software Engineer</strong><br>
+                        Altosis · Stajyer<br>
+                        Kas 2022 - Tem 2023 · 9 ay<br>
+                        İstanbul, Türkiye<br>
+                        Next.js, React.js ve +3 yetenek        </div>
+                  </div>
+                </div>
+          </div>
           </div>
         </div>
-      </div></center>
+      </div>
+    </div>
+  </div>
+  
     
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-  </body>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
 </html>
